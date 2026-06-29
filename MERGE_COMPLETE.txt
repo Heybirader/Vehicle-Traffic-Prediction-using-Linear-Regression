@@ -1,0 +1,15 @@
+Refactor complete: Project structure reorganized and merged to main.
+
+Changes applied:
+- Modular architecture with src/, scripts/, and tests/ directories
+- Centralized configuration via config.py
+- Separated concerns: preprocessing, model, predict modules
+- Added requirements.txt and .gitignore
+- Updated README with new structure and setup instructions
+- Entry point: python scripts/train.py
+
+Next steps:
+1. Create data/raw/ directory
+2. Add vehicles.csv to data/raw/
+3. Install dependencies: pip install -r requirements.txt
+4. Run pipeline: python scripts/train.py
