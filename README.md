@@ -9,8 +9,11 @@ This project uses a time-series vehicle count dataset to:
 
 
 Extract meaningful date/time features from raw timestamps
+
 Train a Linear Regression model on historical traffic patterns
+
 Evaluate model performance using standard regression metrics
+
 Forecast vehicle counts for the next 7 days (168 hours)
 
 
@@ -18,7 +21,9 @@ Forecast vehicle counts for the next 7 days (168 hours)
 📂 Project Structure
 
 ├── py.py               # Main script: preprocessing, training, prediction
+
 ├── vehicles.csv        # Dataset (not included — see Dataset section)
+
 └── README.md
 
 
@@ -31,9 +36,13 @@ FeatureDescriptiondateDay of monthweekdayDay of week (0 = Monday)hourHour of day
 
 
 Python 3.x
+
 pandas — data loading and manipulation
+
 NumPy — numerical operations
+
 scikit-learn — Linear Regression, train/test split, metrics
+
 
 
 
